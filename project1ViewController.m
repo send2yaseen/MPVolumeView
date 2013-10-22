@@ -14,6 +14,10 @@
 
 @implementation project1ViewController
 
+- (IBAction)Pause:(id)sender {
+    [self.audioPlayer pause];
+
+}
 
 
 - (IBAction)playMusic:(id)sender {
